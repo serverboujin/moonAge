@@ -10,8 +10,6 @@ d = today.day
 def moonAge():
     cM = [None, 0, 2, 0, 2, 2, 4, 5, 6, 7, 8, 9, 10]
     moon = ((( y-11 ) % 19) * 11 + cM[m] + d) % 30
-    while moon > 30:
-        moon = moon - 30
 
     return moon
 
