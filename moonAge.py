@@ -30,14 +30,14 @@ if __name__ == '__main__':
 
     if start == 0:
         print ("\n今日の月齢はおよそ %s です。" % moonAge())
-        if d in dd:
+        if moonAge() in dd:
             print ("%s です！" % moonName())
     elif start == 1:
         y = int(input ("年？>> "))
         m = int(input ("月？>> "))
         d = int(input ("日？>> "))
         print ("\n今日の月齢はおよそ %s です。" % moonAge())
-        if d in dd:
+        if moonAge() in dd:
             print ("%s です！" % moonName())
 
     fin = input ("\n\n終了します。何かキーを押してください…")
